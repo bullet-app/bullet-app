@@ -1,0 +1,16 @@
+{
+  "name": "bullet-app",
+  "version": "1.0.0",
+  "description": "An app to help journaling, bullet styles",
+  "main": "index.js",
+  "repository": "git@github.com:frytyler/bullet-app.git",
+  "author": [ "Tyler Fry <fry.tyler@mb3online.com>", "Eric Adamski <er.adamski@gmail.com>" ],
+  "license": "MIT",
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
+  },
+  "devDependencies": {
+    "all-contributors-cli": "^4.5.1"
+  }
+}
