@@ -2,7 +2,7 @@
   "name": "bullet-app",
   "version": "1.0.0",
   "description": "An app to help journaling, bullet styles",
-  "main": "index.js",
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "repository": "git@github.com:frytyler/bullet-app.git",
   "author": [
     "Tyler Fry <fry.tyler@mb3online.com>",
@@ -10,12 +10,30 @@
   ],
   "license": "MIT",
   "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
   },
+  "dependencies": {
+    "expo": "^22.0.0",
+    "react": "16.0.0-beta.5",
+    "react-native": "^0.49.5"
+  },
   "devDependencies": {
     "all-contributors-cli": "^4.5.1",
-    "cz-conventional-changelog": "^2.1.0"
+    "cz-conventional-changelog": "^2.1.0",
+    "flow-bin": "^0.49.1",
+    "jest-expo": "^22.0.0",
+    "prettier": "^1.7.4",
+    "react-native-scripts": "1.6.0",
+    "react-test-renderer": "16.0.0-beta.5"
+  },
+  "jest": {
+    "preset": "jest-expo"
   },
   "config": {
     "commitizen": {
