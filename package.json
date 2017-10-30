@@ -15,6 +15,7 @@
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
     "test": "node node_modules/jest/bin/jest.js --watch",
+    "precommit": "lint-staged",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate"
   },
@@ -31,10 +32,18 @@
     "all-contributors-cli": "^4.5.1",
     "cz-conventional-changelog": "^2.1.0",
     "flow-bin": "^0.49.1",
+    "husky": "^0.14.3",
     "jest-expo": "^22.0.0",
+    "lint-staged": "^4.3.0",
     "prettier": "^1.7.4",
     "react-native-scripts": "1.6.0",
     "react-test-renderer": "16.0.0-beta.5"
+  },
+  "lint-staged": {
+    "*.{js,json,jsx}": [
+      "prettier --write --config ./.prettierrc.json --config-precedence prefer-file",
+      "git add"
+    ]
   },
   "jest": {
     "preset": "jest-expo"
