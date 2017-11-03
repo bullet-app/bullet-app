@@ -2,7 +2,6 @@
 
 exports[`Title snapshots should match the sub title snapshot 1`] = `
 <View
-  secondary={true}
   style={
     Array [
       Object {},
@@ -15,9 +14,13 @@ exports[`Title snapshots should match the sub title snapshot 1`] = `
     allowFontScaling={true}
     disabled={false}
     ellipsizeMode="tail"
+    secondary={true}
     style={
       Array [
-        Object {},
+        Object {
+          "color": "#4c4c4c",
+          "fontSize": 18,
+        },
         undefined,
       ]
     }
@@ -29,7 +32,6 @@ exports[`Title snapshots should match the sub title snapshot 1`] = `
 
 exports[`Title snapshots should match the title snapshot 1`] = `
 <View
-  secondary={undefined}
   style={
     Array [
       Object {},
@@ -42,9 +44,13 @@ exports[`Title snapshots should match the title snapshot 1`] = `
     allowFontScaling={true}
     disabled={false}
     ellipsizeMode="tail"
+    secondary={undefined}
     style={
       Array [
-        Object {},
+        Object {
+          "color": "#4c4c4c",
+          "fontSize": 36,
+        },
         undefined,
       ]
     }

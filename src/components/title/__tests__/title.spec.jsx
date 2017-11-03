@@ -33,11 +33,11 @@ describe('Title', () => {
       ).toBeTruthy();
     });
 
-    it('should add the prop secondary to Main', () => {
+    it('should add the prop secondary to Text', () => {
       // Assert
       expect(
         (wrapper = shallow(<Title secondary>Hello</Title>))
-          .find(Main)
+          .find(Text)
           .prop('secondary')
       ).toBeTruthy();
     });
