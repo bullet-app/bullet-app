@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title snapshots should match the sub title snapshot 1`] = `
+<View
+  secondary={true}
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    Hello
+  </Text>
+</View>
+`;
+
+exports[`Title snapshots should match the title snapshot 1`] = `
+<View
+  secondary={undefined}
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {},
+        undefined,
+      ]
+    }
+  >
+    Hello
+  </Text>
+</View>
+`;
