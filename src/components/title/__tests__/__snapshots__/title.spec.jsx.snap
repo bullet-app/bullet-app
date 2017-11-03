@@ -19,6 +19,7 @@ exports[`Title snapshots should match the sub title snapshot 1`] = `
       Array [
         Object {
           "color": "#4c4c4c",
+          "fontFamily": "montserrat-bold",
           "fontSize": 18,
         },
         undefined,
@@ -49,7 +50,8 @@ exports[`Title snapshots should match the title snapshot 1`] = `
       Array [
         Object {
           "color": "#4c4c4c",
-          "fontSize": 36,
+          "fontFamily": "montserrat-bold",
+          "fontSize": 27,
         },
         undefined,
       ]
