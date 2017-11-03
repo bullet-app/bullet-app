@@ -1,3 +1,6 @@
 export const font = {
-  base: 18,
+  base: 14,
+  title: {
+    base: 18,
+  },
 };
