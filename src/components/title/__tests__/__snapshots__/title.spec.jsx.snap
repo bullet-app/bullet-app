@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Title snapshots should match the sub title snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    secondary={true}
+    style={
+      Array [
+        Object {
+          "color": "#4c4c4c",
+          "fontFamily": "montserrat-bold",
+          "fontSize": 18,
+        },
+        undefined,
+      ]
+    }
+  >
+    Hello
+  </Text>
+</View>
+`;
+
+exports[`Title snapshots should match the title snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {},
+      undefined,
+    ]
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    secondary={undefined}
+    style={
+      Array [
+        Object {
+          "color": "#4c4c4c",
+          "fontFamily": "montserrat-bold",
+          "fontSize": 27,
+        },
+        undefined,
+      ]
+    }
+  >
+    Hello
+  </Text>
+</View>
+`;
