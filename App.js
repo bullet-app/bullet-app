@@ -6,6 +6,7 @@ import { client } from './src/apollo.client';
 import { Font } from 'expo';
 
 import { Title } from './src/components/title';
+import { Icon } from './src/components/icon';
 
 const StyledText = styled.Text`
   font-family: 'montserrat-bold';
@@ -34,6 +35,7 @@ export default class App extends React.Component {
       <ApolloProvider client={client}>
         <View style={styles.container}>
           <Title>(primary) Hello World</Title>
+          <Icon name="ios-help" size={50} />
           <Title secondary>(seconday) Hello World</Title>
           <Text>Open up App.js to start working on your app!</Text>
           <Text>Changes you make will automatically reload.</Text>
